@@ -20,8 +20,9 @@ FNF >1.0.0 splits sprites into multiple PNG files. For example, for Pico you nee
 | Psych Engine | Kade Engine | FNF Engine |
 |-------------|-------------|-------------|
 | Characters ⚠️ | Characters ❌ | Characters ⚠️ |
-| Songs ✅ | Songs ✅ | Songs ✅ |
-| Stages ❌ | Stages ❌ | Stages ⚠️ |
-| Scripts ❌ | Scripts ❌ | Scripts ❌ |
-| Events ❌ | Events ❌ | Events ❌ |
-| Videos ❌ | Videos ❌ | Videos ❌ |
+| Songs ✅      | Songs ✅      | Songs ✅      |
+| Icons ✅      | Icons ✅      | Icons ✅      |
+| Stages ❌     | Stages ❌     | Stages ⚠️     |
+| Scripts ❌    | Scripts ❌    | Scripts ❌    |
+| Events ❌     | Events ❌     | Events ❌     |
+| Videos ❌     | Videos ❌     | Videos ❌     |
