@@ -1,21 +1,18 @@
-Это репозиторий, который поможет тебе создать свой мод! Все изображения, видео и даже сцены загружаются именно отсюда! Всё что тебе нужно сделать, это создать форк данного репозитория и ввести в Friday Night Funkin AI Engine ссылку на свой мод, а именно: https://raw.githubusercontent.com/<Твой Github никнейм>/<Названия репозитория>/refs/heads/main
+ This is a repository that will help you create your own mod! All images, videos, and even scenes are loaded from here! All you need to do is fork this repository and enter the link to your mod in the Friday Night Funkin AI Engine, specifically: `https://raw.githubusercontent.com/<Your Github nickname>/<Repository name>/refs/heads/main`
 
-# Как добавить песнями из мода или оригинального FNF?
+# How to add songs from mods or the original FNF?
 
-1. Скопируй папку Chart из FNF GAME/assets/data/songs/<песня> в GITHUB/songs
-2. Скопируй аудио трека и голоса из FNF GAME/assets/songs/<песня> в GITHUB/songs/<песня>
-3. Готово. Песня должна работать, если загрузить её вручную по имени.
+1. Copy the `Chart` folder from `FNF GAME/assets/data/songs/<song>` to `GITHUB/songs`
+2. Copy the instrumental and vocal audio files from `FNF GAME/assets/songs/<song>` to `GITHUB/songs/<song>`
+3. Done. The song should work if you load it manually by name.
 
-# Круто, с песнями разобрались. Что насчёт персонажей?
+# Cool, we've figured out songs. What about characters?
 
-1. Скопируй JSON файл из FNF GAME/assets/data/characters/<НАЗВАНИЕ ПЕРСОНАЖА> в GITHUB/assets/characters
-2. Скопируй XML файл из FNF GAME/assets/shared/images/characters/<НАЗВАНИЕ ПЕРСОНАЖА>.xml в GITHUB/assets/characters
-3. Скопируй PNG файл из FNF GAME/assets/shared/images/characters/<НАЗВАНИЕ ПЕРСОНАЖА>.png в GITHUB/assets/characters
-4. Готово, НО... *прочитай внизу текст*
+1. Copy the JSON file from `FNF GAME/assets/data/characters/<CHARACTER NAME>` to `GITHUB/assets/characters`
+2. Copy the XML file from `FNF GAME/assets/shared/images/characters/<CHARACTER NAME>.xml` to `GITHUB/assets/characters`
+3. Copy the PNG file from `FNF GAME/assets/shared/images/characters/<CHARACTER NAME>.png` to `GITHUB/assets/characters`
+4. Done, BUT... *read the text below*
 
-# Персонажей из FNF >1.0.0 сложнее импортировать!
+# Characters from FNF >1.0.0 are harder to import!
 
-FNF >1.0.0 разделяет спрайты на несколько PNG файлов. Например, для Pico необходимо скопировать не только Pico_Playable.png, но и Pico_Censored.png, Pico_Shooting.png, Pico_Death.png, pico-cheer.png, pico-yeah.png, Pico_Intro и Pico_Burps. К сожалению, понять какие png файлы необходимо скачать можно лишь после того, как вы рассмотрите JSON файла персонажа.
-
-
-*Github может обновлять файлы до 5 минут, если вы не увидели никаких изменений, просто подождите, пока Github наконец обновит или добавит новые файлы на сервера.*
+FNF >1.0.0 splits sprites into multiple PNG files. For example, for Pico you need to copy not only `Pico_Playable.png`, but also `Pico_Censored.png`, `Pico_Shooting.png`, `Pico_Death.png`, `pico-cheer.png`, `pico-yeah.png`, `Pico_Intro.png`, and `Pico_Burps.png`. Unfortunately, you can only tell which PNG files need to be downloaded after you examine the character's JSON file.
