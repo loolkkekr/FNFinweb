@@ -13,6 +13,7 @@
 1. Скопируй JSON файл из FNF GAME/assets/data/characters/<НАЗВАНИЕ ПЕРСОНАЖА> в GITHUB/assets/characters
 2. Скопируй XML файл из FNF GAME/assets/shared/images/characters/<НАЗВАНИЕ ПЕРСОНАЖА>.xml в GITHUB/assets/characters
 3. Скопируй PNG файл из FNF GAME/assets/shared/images/characters/<НАЗВАНИЕ ПЕРСОНАЖА>.png в GITHUB/assets/characters
+
 FNF >1.0.0 разделяет спрайты на несколько PNG файлов. Например, для Pico необходимо скопировать не только Pico_Playable.png, но и Pico_Censored.png, Pico_Shooting.png, Pico_Death.png, pico-cheer.png, pico-yeah.png, Pico_Intro и Pico_Burps. К сожалению, понять какие png файлы необходимо скачать можно лишь после того, как вы рассмотрите JSON файла персонажа.
 
 4. Готово! 
