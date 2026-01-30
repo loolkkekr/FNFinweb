@@ -24,5 +24,4 @@ FNF >1.0.0 splits sprites into multiple PNG files. For example, for Pico you nee
 | Stages ❌ | Stages ❌ | Stages ⚠️ |
 | Scripts ❌ | Scripts ❌ | Scripts ❌ |
 | Events ❌ | Events ❌ | Events ❌ |
-
 | Videos ❌ | Videos ❌ | Videos ❌ |
