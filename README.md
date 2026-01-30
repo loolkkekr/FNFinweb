@@ -13,7 +13,7 @@
 1. Скопируй JSON файл из FNF GAME/assets/data/characters/<НАЗВАНИЕ ПЕРСОНАЖА> в GITHUB/assets/characters
 2. Скопируй XML файл из FNF GAME/assets/shared/images/characters/<НАЗВАНИЕ ПЕРСОНАЖА>.xml в GITHUB/assets/characters
 3. Скопируй PNG файл из FNF GAME/assets/shared/images/characters/<НАЗВАНИЕ ПЕРСОНАЖА>.png в GITHUB/assets/characters
-4. Готово, НО...
+4. Готово, НО... *прочитай внизу текст*
 
 # Персонажей из FNF >1.0.0 сложнее импортировать!
 
