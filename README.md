@@ -16,3 +16,13 @@
 # Characters from FNF >1.0.0 are harder to import!
 
 FNF >1.0.0 splits sprites into multiple PNG files. For example, for Pico you need to copy not only `Pico_Playable.png`, but also `Pico_Censored.png`, `Pico_Shooting.png`, `Pico_Death.png`, `pico-cheer.png`, `pico-yeah.png`, `Pico_Intro.png`, and `Pico_Burps.png`. Unfortunately, you can only tell which PNG files need to be downloaded after you examine the character's JSON file.
+
+| Psych Engine | Kade Engine | FNF Engine |
+|-------------|-------------|-------------|
+| Characters ⚠️ | Characters ❌ | Characters ⚠️ |
+| Songs ✅ | Songs ✅ | Songs ✅ |
+| Stages ❌ | Stages ❌ | Stages ⚠️ |
+| Scripts ❌ | Scripts ❌ | Scripts ❌ |
+| Events ❌ | Events ❌ | Events ❌ |
+
+| Videos ❌ | Videos ❌ | Videos ❌ |
