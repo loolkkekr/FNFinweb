@@ -2,9 +2,20 @@
 
 Всё готово? Введи в Friday Night Funkin AI Engine данную ссылку, что бы загрузить твой мод: https://raw.githubusercontent.com/<Твой Github никнейм>/<Названия репозитория>/refs/heads/main
 
-# Как добавить трека?
+# Как добавить песнями из мода или оригинального FNF?
 
-На самом деле очень просто! Зайдите в папку songs и перетащите папку уровня (или точнее, chart) с любого мода/FNF (/assets/data/songs). Скопируйте .ogg трека и голоса в папку уровня. Все .ogg треки и голоса находятся в /assets/songs/<название песни>. Готово! Просто выберите ваш добавленный трек в меню.
+1. Скопируй папку Chart из FNF GAME/assets/data/songs/<песня> в GITHUB/songs
+2. Скопируй аудио трека и голоса из FNF GAME/assets/songs/<песня> в GITHUB/songs/<песня>
+3. Готово. Песня должна работать, если загрузить её вручную по имени.
+
+# Круто, с песнями разобрались. Что насчёт персонажей?
+
+1. Скопируй JSON файл из FNF GAME/assets/data/characters/<НАЗВАНИЕ ПЕРСОНАЖА> в GITHUB/assets/characters
+2. Скопируй XML файл из FNF GAME/assets/shared/images/characters/<НАЗВАНИЕ ПЕРСОНАЖА>.xml в GITHUB/assets/characters
+3. Скопируй PNG файл из FNF GAME/assets/shared/images/characters/<НАЗВАНИЕ ПЕРСОНАЖА>.png в GITHUB/assets/characters
+FNF >1.0.0 разделяет спрайты на несколько PNG файлов. Например, для Pico необходимо скопировать не только Pico_Playable.png, но и Pico_Censored.png, Pico_Shooting.png, Pico_Death.png, pico-cheer.png, pico-yeah.png, Pico_Intro и Pico_Burps. К сожалению, понять какие png файлы необходимо скачать можно лишь после того, как вы рассмотрите JSON файла персонажа.
+
+4. Готово! 
 
 
 
